@@ -6,7 +6,7 @@ arch=('x86_64' 'i686')
 url='https://github.com/Rahix/gdk-pixbuf-vtf'
 depends=('gdk-pixbuf2')
 makedepends=('cmake')
-source=("git+https://github.com/Rahix/gdk-pixbuf-vtf.git#commit=61c19b1854ef50f9ba34322423aa0e4f858962ea")
+source=("git+https://github.com/Rahix/gdk-pixbuf-vtf.git#commit=bfd04f1ed0301ea42d2d115089f60f293f7b537d")
 sha256sums=('SKIP')
 
 build() {
