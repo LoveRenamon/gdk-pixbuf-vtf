@@ -12,6 +12,6 @@ else()
 	pkg_get_variable(GDK_PIXBUF_BINARY_VERSION gdk-pixbuf-2.0 gdk_pixbuf_binary_version)
 	set(GDK_PIXBUF_MODULEDIR ${INSTALL_LIB_DIR}/gdk-pixbuf-2.0/${GDK_PIXBUF_BINARY_VERSION}/loaders/)
 endif()
-# install(TARGETS pixbufloader-vtf
-# 	LIBRARY DESTINATION "${GDK_PIXBUF_MODULEDIR}"
-# )
+install(TARGETS pixbufloader-vtf
+	LIBRARY DESTINATION "${GDK_PIXBUF_MODULEDIR}"
+)
