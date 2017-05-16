@@ -26,10 +26,12 @@
 #include <string.h>
 #include <math.h>
 
+#define GDK_PIXBUF_ENABLE_BACKEND
 #include <gdk-pixbuf/gdk-pixbuf.h>
 #include <gdk-pixbuf/gdk-pixbuf-io.h>
 #include <gdk-pixbuf/gdk-pixbuf-animation.h>
 #include <glib/gstdio.h>
+#undef  GDK_PIXBUF_ENABLE_BACKEND
 
 #define VTF_70_HEADER_SIZE       63
 #define VTF_71_HEADER_SIZE       65
