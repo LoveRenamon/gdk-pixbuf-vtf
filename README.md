@@ -23,3 +23,5 @@ $ sudo gdk-pixbuf-query-loaders --update-cache
 $ cp x-vtf.xml ~/.local/share/mime/packages/
 $ update-mime-database ~/.local/share/mime/
 ```
+
+alternatively, there is a [PKGBUILD](https://gist.github.com/Rahix/72f13d5d7f534e35a3006a846651221d) for ArchLinux.
